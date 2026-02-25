@@ -1,176 +1,89 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
 <head>
-    <meta charset="UTF-8">
-    <title>Home - Department of Computer Science</title>
-    <style type="text/css">
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        body {
-            font-family: Arial, Verdana, sans-serif;
-            background-color: #f4f4f4;
-            line-height: 1.6;
-            color: #333;
-        }
-        header {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-            padding: 20px;
-            text-align: center;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-        }
-        header h1 {
-            font-size: 2.5em;
-            margin-bottom: 5px;
-        }
-        header p {
-            font-size: 1.1em;
-            opacity: 0.9;
-        }
-        nav {
-            background-color: #333;
-            padding: 15px 20px;
-            text-align: center;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-            position: sticky;
-            top: 0;
-            z-index: 100;
-        }
-        nav a {
-            display: inline-block;
-            color: white;
-            text-decoration: none;
-            margin: 0 15px;
-            padding: 10px 15px;
-            border-radius: 5px;
-            transition: background-color 0.3s;
-        }
-        nav a:hover {
-            background-color: #667eea;
-        }
-        nav img {
-            vertical-align: middle;
-            margin-right: 8px;
-            width: 24px;
-            height: 24px;
-        }
-        .container {
-            max-width: 1200px;
-            margin: 30px auto;
-            padding: 0 20px;
-        }
-        .hero {
-            background: white;
-            padding: 40px;
-            border-radius: 10px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-            text-align: center;
-            margin-bottom: 30px;
-        }
-        .hero h2 {
-            color: #667eea;
-            font-size: 2em;
-            margin-bottom: 15px;
-        }
-        .hero p {
-            font-size: 1.1em;
-            color: #666;
-            margin-bottom: 20px;
-        }
-        .features {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 20px;
-            justify-content: center;
-            margin-top: 30px;
-        }
-        .feature-box {
-            background: white;
-            padding: 30px;
-            border-radius: 10px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-            width: 280px;
-            text-align: center;
-            transition: transform 0.3s, box-shadow 0.3s;
-        }
-        .feature-box:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 5px 20px rgba(0,0,0,0.15);
-        }
-        .feature-box img {
-            width: 80px;
-            height: 80px;
-            margin-bottom: 15px;
-        }
-        .feature-box h3 {
-            color: #667eea;
-            margin-bottom: 10px;
-            font-size: 1.3em;
-        }
-        .feature-box p {
-            color: #666;
-            font-size: 0.95em;
-        }
-        footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 20px;
-            margin-top: 50px;
-        }
-        footer p {
-            margin: 5px 0;
-        }
-    </style>
+<title>Department of Mathematics - Home</title>
 </head>
-<body>
-    <header>
-        <h1>🎓 Department of Computer Science</h1>
-        <p>Excellence in Education and Innovation</p>
-    </header>
 
-    <nav>
-        <a href="index.html"><img src="images/home.png" alt="Home"> Home</a>
-        <a href="about.html"><img src="images/about.png" alt="About"> About</a>
-        <a href="faculty.html"><img src="images/faculty.png" alt="Faculty"> Faculty</a>
-        <a href="labs.html"><img src="images/labs.png" alt="Labs"> Labs</a>
-        <a href="courses.html"><img src="images/courses.png" alt="Courses"> Courses</a>
-        <a href="gallery.html"><img src="images/gallery.png" alt="Gallery"> Gallery</a>
-        <a href="contact.html"><img src="images/contact.png" alt="Contact"> Contact</a>
-    </nav>
+<body bgcolor="#e6f2ff">
 
-    <div class="container">
-        <div class="hero">
-            <h2>Welcome to Our Department</h2>
-            <p>Discover excellence in Computer Science education, cutting-edge research, and state-of-the-art facilities.</p>
-            <p>We are committed to fostering innovation, critical thinking, and practical skills for the next generation of technology leaders.</p>
-        </div>
+<!-- Header -->
+<table width="100%" bgcolor="#003366" cellpadding="15">
+<tr>
+<td align="center">
+<font color="white" size="6">
 
-        <div class="features">
-            <div class="feature-box">
-                <img src="images/faculty.png" alt="Expert Faculty">
-                <h3>Expert Faculty</h3>
-                <p>Learn from experienced professors with industry expertise and research credentials.</p>
-            </div>
-            <div class="feature-box">
-                <img src="images/labs.png" alt="Modern Labs">
-                <h3>Modern Laboratories</h3>
-                <p>Access state-of-the-art computing facilities and research equipment.</p>
-            </div>
-            <div class="feature-box">
-                <img src="images/courses.png" alt="Diverse Courses">
-                <h3>Diverse Curriculum</h3>
-                <p>Explore diverse courses covering AI, Web Development, Database, and more.</p>
-            </div>
-        </div>
-    </div>
+<b>Department of Mathematics</b>
+</font>
+</td>
+</tr>
+</table>
 
-    <footer>
-        <p>&copy; 2026 Department of Computer Science. All Rights Reserved.</p>
-        <p>Contact us: deptcs@university.edu | Phone: +1-800-123-4567</p>
-    </footer>
+<!-- Navigation Bar -->
+<table width="100%" bgcolor="#cce0ff" cellpadding="10">
+<tr align="center">
+<td><a href="index.html"><img src="C:\Users\hc\Desktop\shumaila BSM-23-29 department website\Images\home.jpg" width="20"> Home</a></td>
+<td><a href="about.html"><img src="C:\Users\hc\Desktop\shumaila BSM-23-29 department website\Images\about.jpg" width="20"> About</a></td>
+<td><a href="faculty.html"><img src="C:\Users\hc\Desktop\shumaila BSM-23-29 department website\Images\faculty.jpg" width="20"> Faculty</a></td>
+<td><a href="labs.html"><img src="C:\Users\hc\Desktop\shumaila BSM-23-29 department website\Images\lab.jpgimages/labs.png" width="20"> Labs</a></td>
+<td><a href="contact.html"><img src="C:\Users\hc\Desktop\shumaila BSM-23-29 department website\Images\contact.jpg" width="20"> Contact</a></td>
+</tr>
+</table>
+
+<br/><br/>
+
+<!-- Main Content Section -->
+<table width="85%" align="center" cellpadding="20" bgcolor="white" border="1">
+<tr>
+
+<!-- Left Side Content -->
+<td width="60%">
+
+<h2><font color="#003366">Welcome to Our Department:</font></h2>
+
+<p>
+<font size="4">
+The <b>Department of Mathematics</b> provides quality education and research 
+opportunities for undergraduate students.
+</font>
+</p>
+<p>
+<font size="4">
+We focus on analytical thinking, problem solving, innovation, and 
+developing strong mathematical foundations. We also focus on programming skills.
+</font>
+</p>
+
+<p>
+<font size="4">
+Our department offers modern facilities, experienced faculty, 
+and a friendly learning environment for students.
+</font>
+</p>
+
+</td>
+
+<!-- Right Side Image -->
+<td width="40%" align="center">
+<img src="images/department.jpg" width="300" height="250" alt="Department Building Image">
+<br><br>
+<font color="#555555"><i>Department Building</i></font>
+</td>
+
+</tr>
+</table>
+
+<br/><br/>
+
+<!-- Footer -->
+<table width="100%" bgcolor="#003366" cellpadding="10">
+<tr>
+<td align="center">
+<font color="white">
+&copy; 2026 Department of Mathematics | All Rights Reserved
+</font>
+</td>
+</tr>
+</table>
+
 </body>
 </html>
