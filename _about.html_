@@ -1,202 +1,75 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
 <head>
-    <meta charset="UTF-8">
-    <title>About - Department of Computer Science</title>
-    <style type="text/css">
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        body {
-            font-family: Arial, Verdana, sans-serif;
-            background-color: #f4f4f4;
-            line-height: 1.6;
-            color: #333;
-        }
-        header {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-            padding: 20px;
-            text-align: center;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-        }
-        header h1 {
-            font-size: 2.5em;
-            margin-bottom: 5px;
-        }
-        header p {
-            font-size: 1.1em;
-            opacity: 0.9;
-        }
-        nav {
-            background-color: #333;
-            padding: 15px 20px;
-            text-align: center;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-            position: sticky;
-            top: 0;
-            z-index: 100;
-        }
-        nav a {
-            display: inline-block;
-            color: white;
-            text-decoration: none;
-            margin: 0 15px;
-            padding: 10px 15px;
-            border-radius: 5px;
-            transition: background-color 0.3s;
-        }
-        nav a:hover {
-            background-color: #667eea;
-        }
-        nav img {
-            vertical-align: middle;
-            margin-right: 8px;
-            width: 24px;
-            height: 24px;
-        }
-        .container {
-            max-width: 1000px;
-            margin: 30px auto;
-            padding: 0 20px;
-        }
-        .section {
-            background: white;
-            padding: 30px;
-            margin-bottom: 30px;
-            border-radius: 10px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-        }
-        .section h2 {
-            color: #667eea;
-            font-size: 2em;
-            margin-bottom: 20px;
-            display: flex;
-            align-items: center;
-        }
-        .section h2 img {
-            width: 40px;
-            height: 40px;
-            margin-right: 15px;
-        }
-        .section h3 {
-            color: #764ba2;
-            margin-top: 20px;
-            margin-bottom: 15px;
-            font-size: 1.3em;
-        }
-        .section p {
-            color: #555;
-            margin-bottom: 15px;
-            text-align: justify;
-        }
-        .section ul {
-            margin-left: 30px;
-            margin-bottom: 15px;
-        }
-        .section li {
-            margin-bottom: 10px;
-            color: #555;
-        }
-        blockquote {
-            background-color: #f0f0f0;
-            border-left: 5px solid #667eea;
-            padding: 20px;
-            margin: 20px 0;
-            font-style: italic;
-            color: #555;
-            border-radius: 5px;
-        }
-        .quote-author {
-            text-align: right;
-            margin-top: 10px;
-            font-weight: bold;
-            color: #667eea;
-        }
-        footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 20px;
-            margin-top: 50px;
-        }
-        footer p {
-            margin: 5px 0;
-        }
-    </style>
+    
+    <title>About</title>
+    
 </head>
-<body>
-    <header>
-        <h1>🎓 Department of Computer Science</h1>
-        <p>Excellence in Education and Innovation</p>
-    </header>
+<body  bgcolor="#e6f2ff">
+<table width="100%" bgcolor="#003366" cellpadding="15">
+<tr>
+<td align="center">
+<font color="white" size="6">
 
-    <nav>
-        <a href="index.html"><img src="images/home.png" alt="Home"> Home</a>
-        <a href="about.html"><img src="images/about.png" alt="About"> About</a>
-        <a href="faculty.html"><img src="images/faculty.png" alt="Faculty"> Faculty</a>
-        <a href="labs.html"><img src="images/labs.png" alt="Labs"> Labs</a>
-        <a href="courses.html"><img src="images/courses.png" alt="Courses"> Courses</a>
-        <a href="gallery.html"><img src="images/gallery.png" alt="Gallery"> Gallery</a>
-        <a href="contact.html"><img src="images/contact.png" alt="Contact"> Contact</a>
-    </nav>
+<b>🎓Department of Mathematics</b>
+<p>Excellence in Education and Innovation</p>
+</font>
+</td>
+</tr>
+</table>
+      
+<!-- Navigation -->
+<table width="100%" bgcolor="#cce0ff"   cellpadding="10">
+<tr align="center">
+<td><a href="index.html"><img src="C:\Users\hc\Desktop\shumaila BSM-23-29 department website\Images\home.jpg" width="20"> Home</a></td>
+<td><a href="about.html"><img src="C:\Users\hc\Desktop\shumaila BSM-23-29 department website\Images\about.jpg" width="20"> About</a></td>
+<td><a href="faculty.html"><img src="C:\Users\hc\Desktop\shumaila BSM-23-29 department website\Images\faculty.jpg" width="20"> Faculty</a></td>
+<td><a href="labs.html"><img src="C:\Users\hc\Desktop\shumaila BSM-23-29 department website\Images\lab.jpg" width="20"> Labs</a></td>
+<td><a href="contact.html"><img src="C:\Users\hc\Desktop\shumaila BSM-23-29 department website\Images\contact.jpg" width="20"> Contact</a></td>
+</tr>
+</table>
 
-    <div class="container">
-        <div class="section">
-            <h2><img src="images/about.png" alt="About Icon"> About Our Department</h2>
-            <p>The Department of Computer Science is a leading academic institution dedicated to advancing knowledge in computing technologies and preparing students for successful careers in the digital age. Founded with a vision to bridge the gap between theoretical knowledge and practical application, our department has grown into a center of excellence.</p>
-            
-            <p>With a faculty of experienced researchers and practitioners, state-of-the-art laboratories, and a comprehensive curriculum, we provide students with the tools and knowledge needed to excel in various domains of computer science, including artificial intelligence, software engineering, cybersecurity, and data science.</p>
-
-            <p>Our commitment to excellence is reflected in our strong industry partnerships, active research programs, and high placement rates. We believe in fostering a culture of innovation, collaboration, and continuous learning.</p>
-        </div>
-
-        <div class="section">
-            <h3>Vision & Mission</h3>
-            
-            <h3 style="color: #667eea; margin-top: 0;">Vision</h3>
+<br/><br/>
+ <h2>
+🎓About Our Department:
+</h2>
+            <p>The <b>Department of Mathematicsis </b> was established
+ to promote excellence in teaching,research and computing. we pepare  students for academic and professional success.</p>
+        
+        
+            <h3 style="color: #667eea; margin-top: 0;">Vision:</h3>
             <ul>
-                <li>To be a globally recognized center of excellence in computer science education and research.</li>
-                <li>To develop innovative solutions to real-world computing challenges.</li>
+                <li>To develop innovative solutions to real-world challenges.</li>
                 <li>To nurture skilled professionals who contribute meaningfully to society.</li>
                 <li>To foster an environment of continuous learning and technological advancement.</li>
+                <li>To be a globally recognized center of excellence in mathematical sciences education and research.</li>
             </ul>
 
-            <h3 style="color: #667eea;">Mission</h3>
+            <h3 style="color: #667eea;">Mission:</h3>
             <ul>
-                <li>Provide high-quality education in computer science with emphasis on both theory and practice.</li>
-                <li>Conduct cutting-edge research in emerging areas of computing.</li>
-                <li>Develop graduates with strong technical skills, ethical values, and leadership qualities.</li>
-                <li>Maintain strong collaborations with industry and academic institutions.</li>
-                <li>Support the professional development of our faculty and staff.</li>
-            </ul>
-        </div>
-
-        <div class="section">
-            <h3>Chairperson's Message</h3>
+                <li>Provide high-quality education in mathematics with emphasis on both theory and practice.</li>
+                <li>Encourage analytical thinking and problem solving.</li>
+                <li>Develop graduates with strong technical skills and leadership qualities.</li>
+           </ul>
+       
+            <h3>Chairperson's Message:</h3>
             <blockquote>
-                "Welcome to the Department of Computer Science! We are committed to providing world-class education in computer science and fostering a culture of innovation and excellence. Our faculty members are dedicated to mentoring students and conducting groundbreaking research. We encourage all students to embrace challenges, think creatively, and contribute to the advancement of technology. Together, we shape the future of computing and create solutions that make a difference in the world."
-                <div class="quote-author">— Dr. Rajesh Kumar, Department Chairperson</div>
+<font color="blue">
+                <p >"Welcome to the Department of Mathematics!
+                <br/>Our mission is to empower students with strong mathematical foundations challenges,enhance their  programming skills and prepare them global 
+                 Dr. Imran Javaid, Department Chairperson </font>
             </blockquote>
-        </div>
+        
 
-        <div class="section">
-            <h3>Achievements & Highlights</h3>
-            <ul>
-                <li><strong>95% Placement Rate:</strong> Our graduates are highly sought after by leading tech companies.</li>
-                <li><strong>20+ Research Papers:</strong> Published in international journals and conferences annually.</li>
-                <li><strong>Industry Partnerships:</strong> Collaborations with Google, Microsoft, Amazon, and other tech giants.</li>
-                <li><strong>Modern Infrastructure:</strong> Well-equipped labs with the latest computing technology.</li>
-                <li><strong>Student Organizations:</strong> Active coding clubs, hackathons, and technical forums.</li>
-            </ul>
-        </div>
-    </div>
-
-    <footer>
-        <p>&copy; 2026 Department of Computer Science. All Rights Reserved.</p>
-        <p>Contact us: deptcs@university.edu | Phone: +1-800-123-4567</p>
-    </footer>
+    <!-- Footer -->
+<table width="100%" bgcolor="#003366" cellpadding="10">
+<tr>
+<td align="center">
+<font color="white">
+&copy; 2026 Department of Mathematics | All Rights Reserved
+</font>
+</td>
+</tr>
+</table>
 </body>
 </html>
